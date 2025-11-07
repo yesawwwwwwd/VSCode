@@ -1,7 +1,4 @@
--- [[ GENERATED WITH InfernoHub/Scriptify STUDIO PLUGIN ]] --
--- Scriptify Version: 1.0
-
---
+Warn("Prepare for ultra tuffness")
 
 -- Create objects
 local parent = nil;
