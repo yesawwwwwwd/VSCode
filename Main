@@ -1,4 +1,4 @@
-Warn("Prepare for ultra tuffness")
+
 
 -- Create objects
 local parent = nil;
@@ -1145,7 +1145,7 @@ script.Parent.Size = size
 
 local codeBox = script:FindFirstChild("CodeBox") and require(script.CodeBox) or loadstring(game:HttpGet("https://raw.githubusercontent.com/yesawwwwwwd/VSCode/refs/heads/main/CodeBox"))()
 local textBox = codeBox:fromTextBox(script.Parent.Contents.CodeEditor, codeBox.Themes.VSCode, getfenv().getgenv and getfenv().getgenv())
-textBox.Text = [[-- VSCode with oats but roblox..?--
+textBox.Text = [[-- VSCode with oats --
 
 local function HelloWorld(content)
     print(content == "print" and "Hello, World!" or content);
